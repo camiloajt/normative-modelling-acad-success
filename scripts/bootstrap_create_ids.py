@@ -15,7 +15,7 @@ DATASET_NAME = 'train_dataset.csv'
 def main():
     """Creates the csv files with the ids of the subjects used to train the normative model."""
     # ----------------------------------------------------------------------------------------
-    n_bootstrap = 10
+    n_bootstrap = 100
     ids_path = OUTPUT_DATA_DIR / 'datasets' / DATASET_NAME
     # ----------------------------------------------------------------------------------------
     # Create experiment's output directory
